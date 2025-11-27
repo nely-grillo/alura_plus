@@ -22,11 +22,13 @@ body {
 .principal {
     background-image: url("../assets/Background.png");
     background-repeat: no-repeat; 
-    background-size: contain;   
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .conteiner {
-    height: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -44,6 +46,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -55,4 +58,44 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
     text-align: center;
+}
+
+.conteiner__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.conteiner__caixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    /* font-size: 16px;
+    font-weight: 400; */
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.conteiner__descricao {
+    padding: 2em;
+    /* margin-left: 5em; */
 }
